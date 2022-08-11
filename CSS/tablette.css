@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+.filtres {
+    flex-wrap: wrap;
+}
+.Marseille_Populaires {
+    flex-direction: column;
+}
+.card_Marseille, .card_Les_plus_populaires {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.card_Les_plus_populaires {
+    order: 1;
+}
+.card_Marseille {
+    order: 2;
+}
+.Activité {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.ActivitéListe {
+    flex-wrap: wrap;
+    height: auto;
+}
+.Activité h3 {
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+footer {
+    
+    padding-bottom: 0%;
+}
